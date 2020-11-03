@@ -1,0 +1,16 @@
+{
+  "name": "react-like-library",
+  "version": "1.0.0",
+  "description": "exercise to write react like library thus understand react better",
+  "main": "index.js",
+  "author": "Prasad Hegde",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-react-jsx": "^7.12.1"
+  }
+}
